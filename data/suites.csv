@@ -1,0 +1,82 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","277","Criar produto eletronico valido","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Criar produto eletronico valido",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","217","Tentar criar produto com body vazio","","2026-06-05","failed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Tentar criar produto com body vazio",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","319","Buscar todos os produtos com sucesso","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar todos os produtos com sucesso",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","110","Buscar produtos por diferentes IDs","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produtos por diferentes IDs",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","217","Buscar produtos por diferentes IDs","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produtos por diferentes IDs",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","138","Buscar produto eletronico por ID valido","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produto eletronico por ID valido",""
+"  Como um usuario autenticado do sistema de gerenciamento de produtos eletronicos
+  Quero acessar os endpoints protegidos de produtos
+  Para visualizar o catalogo restrito","229","Tentar buscar produtos autenticados sem token","","2026-06-05","passed","2026-06-05","","Acesso a Produtos com Autenticacao","Tentar buscar produtos autenticados sem token",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","239","Buscar produtos por diferentes IDs","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produtos por diferentes IDs",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","254","Criar produto eletronico com dados especificos","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Criar produto eletronico com dados especificos",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero verificar o status da API
+  Para garantir que ela esta operacional antes de executar operacoes","600","Verificar tempo de resposta do health check","","2026-06-05","passed","2026-06-05","","Health Check da API","Verificar tempo de resposta do health check",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","247","Login com diferentes combinacoes de credenciais","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Login com diferentes combinacoes de credenciais",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","2492","Login com credenciais validas","","2026-06-05","failed","2026-06-05","","Autenticacao de Usuario","Login com credenciais validas",""
+"  Como um usuario autenticado do sistema de gerenciamento de produtos eletronicos
+  Quero acessar os endpoints protegidos de produtos
+  Para visualizar o catalogo restrito","298","Buscar produtos autenticados com token valido","","2026-06-05","failed","2026-06-05","","Acesso a Produtos com Autenticacao","Buscar produtos autenticados com token valido",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","692","Login com diferentes combinacoes de credenciais","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Login com diferentes combinacoes de credenciais",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","660","Login com diferentes combinacoes de credenciais","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Login com diferentes combinacoes de credenciais",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","227","Tentar criar produto com preco negativo","","2026-06-05","failed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Tentar criar produto com preco negativo",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero verificar o status da API
+  Para garantir que ela esta operacional antes de executar operacoes","257","Verificar status da API com sucesso","","2026-06-05","passed","2026-06-05","","Health Check da API","Verificar status da API com sucesso",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","712","Login com username valido e senha incorreta","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Login com username valido e senha incorreta",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","644","Buscar produtos por diferentes IDs","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produtos por diferentes IDs",""
+"  Como um usuario autenticado do sistema de gerenciamento de produtos eletronicos
+  Quero acessar os endpoints protegidos de produtos
+  Para visualizar o catalogo restrito","262","Fluxo completo - login e acesso a produtos protegidos","","2026-06-05","failed","2026-06-05","","Acesso a Produtos com Autenticacao","Fluxo completo - login e acesso a produtos protegidos",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","269","Login com diferentes combinacoes de credenciais","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Login com diferentes combinacoes de credenciais",""
+"  Como um usuario autenticado do sistema de gerenciamento de produtos eletronicos
+  Quero acessar os endpoints protegidos de produtos
+  Para visualizar o catalogo restrito","212","Tentar buscar produtos autenticados com token invalido","","2026-06-05","failed","2026-06-05","","Acesso a Produtos com Autenticacao","Tentar buscar produtos autenticados com token invalido",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","712","Login com credenciais invalidas","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Login com credenciais invalidas",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","253","Buscar produto com ID inexistente","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produto com ID inexistente",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","224","Buscar produtos por diferentes IDs","","2026-06-05","passed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Buscar produtos por diferentes IDs",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero gerenciar o catalogo de produtos
+  Para manter o inventario atualizado","621","Tentar criar produto sem campo titulo","","2026-06-05","failed","2026-06-05","","Gerenciamento de Produtos Eletronicos","Tentar criar produto sem campo titulo",""
+"  Como um usuario do sistema de gerenciamento de produtos eletronicos
+  Quero me autenticar na API
+  Para poder acessar os recursos protegidos","666","Tentativa de login sem enviar body","","2026-06-05","passed","2026-06-05","","Autenticacao de Usuario","Tentativa de login sem enviar body",""
