@@ -43,7 +43,9 @@ public class AuthSteps {
         Response response = RequestHelper.post(Constants.ENDPOINT_AUTH_LOGIN, login.toMap());
         assertEquals("Falha ao autenticar no setup. Body: " + response.getBody().asString(),
                 200, response.getStatusCode());
-        String token = response.jsonPath().getString("token");
+
+        // FIX: DummyJSON retorna o token no campo "accessToken", não "token"
+        String token = response.jsonPath().getString("accessToken");
         assertNotNull("Token nao pode ser nulo no setup", token);
         context.setToken(token);
     }
@@ -83,7 +85,9 @@ public class AuthSteps {
     @Then("a resposta deve conter um token de autenticacao")
     public void responseShouldContainAuthToken() {
         Response response = context.getResponse();
-        String token = response.jsonPath().getString("token");
+
+        // FIX: DummyJSON retorna o token no campo "accessToken", não "token"
+        String token = response.jsonPath().getString("accessToken");
         assertNotNull("Token nao deve ser nulo", token);
         assertFalse("Token nao deve ser vazio", token.isEmpty());
         context.setToken(token);

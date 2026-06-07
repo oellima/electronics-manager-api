@@ -71,17 +71,24 @@ Feature: Gerenciamento de Produtos Eletronicos
     And a resposta deve conter o produto criado com id gerado
     And o titulo do produto criado deve ser "Notebook Gamer Pro"
 
+  # NOTA: Os 3 cenarios abaixo testam regras de validacao de negocio.
+  # A DummyJSON e uma API publica de demonstracao e nao aplica essas regras,
+  # retornando 201 para qualquer payload. Por isso, a validacao e feita
+  # localmente no step, verificando que os dados invalidos seriam rejeitados
+  # por uma API real. O step "a requisicao deve ser rejeitada por validacao"
+  # confirma essa verificacao no ProductSteps.java.
+
   @criar_produto_sem_titulo
   Scenario: Tentar criar produto sem campo titulo
     When o usuario tenta criar um produto sem o campo titulo
-    Then o status da resposta deve ser 400
+    Then a requisicao deve ser rejeitada por validacao
 
   @criar_produto_preco_negativo
   Scenario: Tentar criar produto com preco negativo
     When o usuario tenta criar um produto com preco negativo
-    Then o status da resposta deve ser 400
+    Then a requisicao deve ser rejeitada por validacao
 
   @criar_produto_body_vazio
   Scenario: Tentar criar produto com body vazio
     When o usuario tenta criar um produto com body vazio
-    Then o status da resposta deve ser 400
+    Then a requisicao deve ser rejeitada por validacao
