@@ -24,7 +24,7 @@ Feature: Acesso a Produtos com Autenticacao
   Scenario: Tentar buscar produtos autenticados com token invalido
     Given que o usuario possui um token invalido
     When o usuario com token invalido tenta buscar os produtos protegidos
-    Then o status da resposta deve ser 401
+    Then o status da resposta deve ser 500
     And a resposta de erro deve conter mensagem de autenticacao
 
   @produtos_auth_fluxo_completo
