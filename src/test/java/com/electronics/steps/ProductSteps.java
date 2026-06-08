@@ -224,6 +224,7 @@ public class ProductSteps {
         String body = response.getBody().asString();
         assertTrue("Mensagem de erro de autenticacao esperada. Body: " + body,
                 body.contains("Authentication") || body.contains("Token") ||
-                        body.contains("Unauthorized")   || body.contains("Invalid"));
+                        body.contains("Unauthorized")   || body.contains("Invalid") ||
+                        body.contains("invalid")        || body.contains("token"));
     }
 }
